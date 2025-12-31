@@ -1,13 +1,17 @@
 {
   "name": "klara-whisper-proxy",
   "version": "1.0.0",
+  "description": "Прокси для OpenAI Whisper — используется в Minecraft плагине KlaraVoice",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
+  "author": "Timoha500",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
     "multer": "^1.4.5-lts.1",
-    "openai": "^4.28.0"
+    "openai": "^4.67.3"
   }
 }
